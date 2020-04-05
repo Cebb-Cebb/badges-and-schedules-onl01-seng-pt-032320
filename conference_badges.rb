@@ -65,11 +65,11 @@ end
 
 def printer(attendees)
   resultOne = batch_badge_creator(attendees)
-  resultOne.each do |x|
+  resultOne.each do |guests|
     puts x 
   end
   result = assign_rooms(attendees)
-  result.each do |x|
+  result.each do |rooms|
     puts x 
   end
 end
