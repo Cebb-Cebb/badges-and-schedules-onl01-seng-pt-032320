@@ -62,7 +62,7 @@ end
 #       end
 #       printer(attendees)
 # 
-
+def printer()
 
 
   
